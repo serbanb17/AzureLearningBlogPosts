@@ -1,0 +1,24 @@
+{
+  "IsEncrypted": false,
+  "Values": {
+    "AzureWebJobsStorage": "",
+    "FUNCTIONS_WORKER_RUNTIME": "dotnet",
+    "ServiceBusConnection": "",
+    "NewPostsQueueName": "newposts",
+    "CosmosDbConnection": "",
+    "DatabaseName": "",
+    "BlogsContainerName": "Blogs",
+    "PostsContainerName": "Posts"
+  },
+  "Host": {
+    "LocalHttpPort": 7225
+  },
+  "extensions": {
+    "serviceBus": {
+      "messageHandlerOptions": {
+        "autoComplete": false,
+        "maxConcurrentCalls": 1
+      }
+    }
+  }
+}
