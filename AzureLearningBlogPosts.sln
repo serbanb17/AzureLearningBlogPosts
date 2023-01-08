@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33205.214
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AzureLearningBlogPosts.Common", "AzureLearningBlogPosts.Common\AzureLearningBlogPosts.Common.csproj", "{6C57D901-7AED-4B71-8AC7-FA4131C359F4}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AzureLearningBlogPosts.InputFunctionApp", "AzureLearningBlogPosts.InputFunctionApp\AzureLearningBlogPosts.InputFunctionApp.csproj", "{22099B10-28C1-4AB6-9DEC-7CF00A715D3F}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AzureLearningBlogPosts.InitialDataGenerator", "AzureLearningBlogPosts.InitialDataGenerator\AzureLearningBlogPosts.InitialDataGenerator.csproj", "{9AA88968-6A5B-4A2F-95E5-27046C27C531}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AzureLearningBlogPosts.ProcessNewPostFunctionApp", "AzureLearningBlogPosts.ProcessNewPostFunctionApp\AzureLearningBlogPosts.ProcessNewPostFunctionApp.csproj", "{192C3A3E-C547-4EA2-9DFB-3DCCC7340FA1}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AzureLearningBlogPosts.CountPostsFunctionApp", "AzureLearningBlogPosts.CountPostsFunctionApp\AzureLearningBlogPosts.CountPostsFunctionApp.csproj", "{1CD72B66-1700-4F99-A010-94A85E39CAB5}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{A3840073-C2B4-4936-8D83-EA07D8D075C7}"
+	ProjectSection(SolutionItems) = preProject
+		.gitignore = .gitignore
+		readme.md = readme.md
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6C57D901-7AED-4B71-8AC7-FA4131C359F4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6C57D901-7AED-4B71-8AC7-FA4131C359F4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6C57D901-7AED-4B71-8AC7-FA4131C359F4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6C57D901-7AED-4B71-8AC7-FA4131C359F4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{22099B10-28C1-4AB6-9DEC-7CF00A715D3F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{22099B10-28C1-4AB6-9DEC-7CF00A715D3F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{22099B10-28C1-4AB6-9DEC-7CF00A715D3F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{22099B10-28C1-4AB6-9DEC-7CF00A715D3F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9AA88968-6A5B-4A2F-95E5-27046C27C531}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9AA88968-6A5B-4A2F-95E5-27046C27C531}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9AA88968-6A5B-4A2F-95E5-27046C27C531}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9AA88968-6A5B-4A2F-95E5-27046C27C531}.Release|Any CPU.Build.0 = Release|Any CPU
+		{192C3A3E-C547-4EA2-9DFB-3DCCC7340FA1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{192C3A3E-C547-4EA2-9DFB-3DCCC7340FA1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{192C3A3E-C547-4EA2-9DFB-3DCCC7340FA1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{192C3A3E-C547-4EA2-9DFB-3DCCC7340FA1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1CD72B66-1700-4F99-A010-94A85E39CAB5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1CD72B66-1700-4F99-A010-94A85E39CAB5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1CD72B66-1700-4F99-A010-94A85E39CAB5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1CD72B66-1700-4F99-A010-94A85E39CAB5}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {2B6B23A1-8ECE-4E5D-A845-1151BCBD1F11}
+	EndGlobalSection
+EndGlobal

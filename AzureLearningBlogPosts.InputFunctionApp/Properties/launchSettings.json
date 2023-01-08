@@ -1,0 +1,7 @@
+{
+  "profiles": {
+    "AzureLearningBlogPosts.InputFunctionApp": {
+      "commandName": "Project"
+    }
+  }
+}

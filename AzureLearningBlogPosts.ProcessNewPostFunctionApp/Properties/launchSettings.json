@@ -1,0 +1,7 @@
+{
+  "profiles": {
+    "AzureLearningBlogPosts.ProcessNewPostFunctionApp": {
+      "commandName": "Project"
+    }
+  }
+}
